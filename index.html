@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thiraphat Sangsorn - Portfolio</title>
+<meta name="description" content="Portfolio ของ Thiraphat Sangsorn (Nice) นักศึกษา Software Full Stack Development มหาวิทยาลัยศรีปทุม">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="เมนูหลัก">
+    <a href="#home" class="nav__brand">Portfolio<span>.</span></a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="เปิดเมนู">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#home" class="nav__link">หน้าแรก</a></li>
+      <li><a href="#education" class="nav__link">การศึกษา</a></li>
+      <li><a href="#skills" class="nav__link">ทักษะ</a></li>
+      <li><a href="#projects" class="nav__link">ผลงาน</a></li>
+      <li><a href="#contact" class="nav__link">ติดต่อ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="hero__tri hero__tri--1"></span>
+      <span class="hero__tri hero__tri--2"></span>
+      <span class="hero__tri hero__tri--3"></span>
+    </div>
+
+    <div class="hero__inner">
+      <div class="hero__text" data-reveal>
+        <p class="hero__kicker">พอร์ตโฟลิโอส่วนตัว</p>
+        <h1 class="hero__title">
+          <span class="hero__title-line">Welcome to</span>
+          <span class="hero__title-line hero__title-line--accent">My Website</span>
+        </h1>
+        <p class="hero__sub">Thiraphat Sangsorn (Nice) - Software Full Stack Development, Sripatum University</p>
+        <a href="#introduction" class="btn btn--primary">More About Me ></a>
+      </div>
+
+      <div class="hero__figure" data-reveal>
+        <img src="images/me1.png" alt="ภาพของ Thiraphat Sangsorn" width="480" height="560">
+      </div>
+    </div>
+
+    <a href="#introduction" class="hero__scroll" aria-label="เลื่อนลงเพื่อดูเนื้อหาถัดไป">
+      <span></span>
+    </a>
+  </section>
+
+  <section class="intro" id="introduction">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Introduction</h2>
+    </div>
+
+    <div class="intro__grid">
+      <div class="intro__photo">
+        <img src="images/me2.gif" alt="รูปโปรไฟล์ของ Theraphat Songarm" width="320" height="320">
+      </div>
+
+      <div class="intro__copy">
+        <p>สวัสดีครับผม ธีรภัทร์ แสงศร ชื่อเล่นชื่อ "ไนซ์" ตอนนี้ผมกำลังศึกษาอยู่คณะเทคโนโลยีสารสนเทศ สาขาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์ ที่มหาวิทยาลัยศรีปทุม</p>
+        <p>เว็บไซต์นี้คือพอร์ตโฟลิโอของผม ซึ่งจัดทำขึ้นเพื่อใช้อธิบายและแสดงให้เห็นเกี่ยวกับข้อมูลต่างๆ ของผมทั้ง ด้านทักษะ ประวัติการศึกษา เป้าหมาย ประสบการณ์ และผลงานที่ผ่านมาของผม</p>
+
+        <dl class="intro__facts">
+          <div>
+            <dt>คณะ</dt>
+            <dd>เทคโนโลยีสารสนเทศ</dd>
+          </div>
+          <div>
+            <dt>สาขา</dt>
+            <dd>วิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์</dd>
+          </div>
+          <div>
+            <dt>สถาบัน</dt>
+            <dd>มหาวิทยาลัยศรีปทุม</dd>
+          </div>
+          <div>
+            <dt>สนใจด้าน</dt>
+            <dd>Full Stack Development , Web Development &amp; UI/UX</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__marker" aria-hidden="true"></div>
+        <div class="timeline__card">
+          <img class="timeline__img" src="images/rsl.jpg" alt="โรงเรียนรัตนโกสินทร์สมโภชลาดกระบัง" width="400" height="260" loading="lazy">
+          <div class="timeline__body">
+            <p class="timeline__tag">High School</p>
+            <h3 class="timeline__title">โรงเรียนรัตนโกสินทร์สมโภชลาดกระบัง</h3>
+            <p class="timeline__desc">จบการศึกษาระดับมัธยมต้น-ปลาย จากโรงเรียนรัตนโกสินทร์สมโภชลาดกระบัง ในแผนการเรียนวิทยาศาสตร์-คณิตศาสตร์</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline__item">
+        <div class="timeline__marker" aria-hidden="true"></div>
+        <div class="timeline__card">
+          <img class="timeline__img" src="images/spu.webp" alt="มหาวิทยาลัยศรีปทุม" width="400" height="260" loading="lazy">
+          <div class="timeline__body">
+            <p class="timeline__tag">University</p>
+            <h3 class="timeline__title">มหาวิทยาลัยศรีปทุม</h3>
+            <p class="timeline__desc">ตอนนี้ กำลังศึกษาอยู่คณะเทคโนโลยีสารสนเทศ สาขาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์ (Software Full Stack Development) เน้นการเรียนรู้จริงเพื่อพัฒนาเว็บแอปพลิเคชันทั้งฝั่ง Front-end และ Back-end</p>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Skills</h2>
+    </div>
+
+    <div class="skills__grid">
+      <div class="skills__group"><h3 class="skills__group-title">Front-end</h3><ul class="skill-list"><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5"><span>HTML</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3"><span>CSS</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"><span>React</span></li></ul></div>
+      <div class="skills__group"><h3 class="skills__group-title">Back-end</h3><ul class="skill-list"><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C Sharp"><span>C#</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"><span>Python</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="SQL"><span>SQL</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></li><li class="skill"><img src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="Supabase"><span>Supabase</span></li></ul></div>
+      <div class="skills__group"><h3 class="skills__group-title">Tools</h3><ul class="skill-list"><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code"><span>VS Code</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub"><span>GitHub</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"><span>Git</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman"><span>Postman</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma"><span>Figma</span></li><li class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></li><li class="skill"><img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBb8YkqrmoFjcMUJULGOJelA1NtKMM.QpI2QMfusA9xbODSqnoRFUTKlOV2wNCmWpk1p8Kq0uuWNa7h3wSPonw8s-&format=source" alt="Canva" style="border-radius: 25%;"><span>Canva</span></li></ul></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="projects__grid">
+      <article class="project-card" data-project="parking" tabindex="0" role="button" aria-haspopup="dialog" aria-label="ดูรายละเอียด ระบบลานจอดรถของบริษัท Metthier"><div class="project-card__media"><img src="images/park-poster.png" alt="โปสเตอร์ระบบลานจอดรถของบริษัท Metthier" loading="lazy"><span>01</span></div><div class="project-card__body"><h3>Parkzilla</h3><p>ระบบบริหารจัดการลานจอดรถจากบริษัท Metthier เพื่อความสะดวกในการหาลานจอด</p><ul class="project-card__tags"><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JS</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"><span>React</span></li><li><img src="https://cdn.simpleicons.org/phpmyadmin/6C78AF" alt="phpMyAdmin"><span>phpMyAdmin</span></li></ul></div></article>
+      <article class="project-card" data-project="shrook" tabindex="0" role="button" aria-haspopup="dialog" aria-label="ดูรายละเอียด Shrook"><div class="project-card__media"><img src="images/shrook-poster.png" alt="โปสเตอร์ Shrook" loading="lazy"><span>02</span></div><div class="project-card__body"><h3>Shrook</h3><p>เว็บไซต์แต่งนิยายออนไลน์ เปิดประสบการณ์การเขียน-อ่านนิยายที่ผู้ใช้สามารถแต่งนิยายได้เอง</p><ul class="project-card__tags"><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JS</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"><span>React</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></li></ul></div></article>
+      <article class="project-card" data-project="shoestore" tabindex="0" role="button" aria-haspopup="dialog" aria-label="ดูรายละเอียด ShoeStore"><div class="project-card__media"><img src="images/shoestore-poster.png" alt="โปสเตอร์ ShoeStore" loading="lazy"><span>03</span></div><div class="project-card__body"><h3>ShoeStore</h3><p>เว็บไซต์ร้านขายรองเท้าออนไลน์ ที่มีระบบจัดการโดยพนักงานที่ทำหน้าที่โดยเฉพาะ</p><ul class="project-card__tags"><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C Sharp"><span>C#</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt=".NET MVC"><span>.NET MVC</span></li></ul></div></article>
+      <article class="project-card" data-project="welly" tabindex="0" role="button" aria-haspopup="dialog" aria-label="ดูรายละเอียด Welly AI-Chatbot"><div class="project-card__media project-card__media--welly"><img src="images/welly-poster.png" alt="โปสเตอร์ Welly AI-Chatbot" loading="lazy"><span>04</span></div><div class="project-card__body"><h3>Welly AI-Chatbot</h3><p>แชตบอทที่สามารถตอบคำถาม และให้คำแนะนำด้านสุขภาพ และโภชนาการแก่ผู้ใช้</p><ul class="project-card__tags"><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"><span>Python</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JS</span></li><li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></li><li><img src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="Supabase"><span>Supabase</span></li></ul></div></article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+
+    <div class="contact__grid">
+      <div class="contact__links" aria-label="ช่องทางติดต่อ">
+        <a href="mailto:triggyth@gmail.com"><span>Email</span>triggyth@gmail.com</a>
+        <a href="https://www.facebook.com/jason.wallhee.1" target="_blank"><span>Facebook</span>Thiraphat Sangsorn</a>
+        <a href="tel:0638784638"><span>Phone</span>063-878-4638</a>
+        <a href="https://github.com/ThiraphatNice" target="_blank"><span>GitHub</span>https://github.com/ThiraphatNice</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle" hidden>
+  <div class="project-modal__backdrop" data-modal-close></div>
+  <div class="project-modal__panel">
+    <button class="project-modal__close" type="button" data-modal-close aria-label="ปิดรายละเอียดโปรเจคต์">&times;</button>
+    <div class="project-modal__gallery">
+      <div class="project-modal__stage" id="modalStage"></div>
+      <div class="project-modal__controls">
+        <button type="button" class="project-modal__arrow" id="modalPrev" aria-label="ดูภาพก่อนหน้า">&#8592;</button>
+        <span id="modalImageCount">01 / 01</span>
+        <button type="button" class="project-modal__arrow" id="modalNext" aria-label="ดูภาพถัดไป">&#8594;</button>
+      </div>
+    </div>
+    <div class="project-modal__content">
+      <p class="project-modal__eyebrow">Project details</p>
+      <h2 id="modalProjectTitle"></h2>
+      <dl class="project-modal__facts">
+        <div><dt>สมาชิกที่พัฒนา</dt><dd id="modalMembers"></dd></div>
+        <div><dt>ช่วงเวลาที่พัฒนา</dt><dd id="modalPeriod"></dd></div>
+        <div><dt>พัฒนาด้วย</dt><dd id="modalStack"></dd></div>
+      </dl>
+      <div class="project-modal__description">
+        <h3>เกี่ยวกับโปรเจคต์</h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Thiraphat Sangsorn. Built with HTML, CSS &amp; JavaScript.</p>
+  <button class="to-top" id="toTop" aria-label="เลื่อนขึ้นด้านบน">↑</button>
+</footer>
+
+<script src="script.js"></script>
+<script src="animation.js"></script>
+</body>
+</html>
